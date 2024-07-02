@@ -235,6 +235,13 @@ app.get('/service-details',function(req,res){
   
 })
 
+
+app.get('/accounts',function(req,res){
+  res.render("accounts");
+  
+})
+
+
 app.get('*',function(req,res){
     res.render("404");
     
